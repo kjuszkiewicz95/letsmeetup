@@ -1,0 +1,90 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#welcomeBanner{
+	/*position: absolute;
+	left: 50%;*/
+	
+	text-align:center;
+	margin-top:6em;
+}
+#welcomeBanner #welcomeTitle {
+	font-size:70px;
+	margin: 0px;
+    
+}
+
+#welcomeBanner #welcomeSubtitle {
+	font-size:30px;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+#friendsBlockContainer {
+
+}
+#friendsBlock {
+	text-align:center;
+	margin: 0 auto; 
+	width:550px;
+}
+
+#friendsBlock #friendTitle {
+	font-size: 35px;
+	font-weight:normal;
+	margin: 0px;
+	margin-top:2.5em;
+}
+
+#friendsBlock #numFriendsBlock {
+	margin-top: 5px;
+}
+
+#friendsBlock #inputNumFriends {
+	font-size: 32px;
+	width:87%;
+}
+
+#friendsBlock #buttonConfirmNumFriends {
+	font-size: 25px;
+	padding: 7px;
+	color: white;
+	background-color: #555555;
+	vertical-align: top;
+	border: none;
+}
+
+#friendsBlock #enterFriendsBlock{
+	margin-top:40px;
+}
+
+#friendsBlock #enterFriendsBlock .inputFriendName {
+	margin-top:10px;
+	font-size: 30px;
+	width:97%;
+}
+
+#container #linkContainer {
+	margin: 0 auto; 
+	width:750px;
+	text-align: center;
+}
+
+#container #linkContainer #buttonGenerateLink {
+	margin-top: 45px;
+	margin-bottom: 30px;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+	background-color: #555555;
+	text-decoration: none;
+	border: none;
+}
+
+#container #linkContainer #meetingLink {
+	font-size: 35px;
+	color: #555555;
+}
+

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    #container
+        #welcomeBanner
+            h1#welcomeTitle Let's Meetup
+            p#welcomeSubtitle Built for Coding Wizards by Konrad
+        #friendsBlockContainer
+            #friendsBlock
+                h1#friendTitle How many friends will be meeting?
+                #numFriendsBlock
+                    input#inputNumFriends(type='text', placeholder='enter number here')
+                    button#buttonConfirmNumFriends OK
+                #enterFriendsBlock
+        #linkContainer
+    script(src='/javascripts/homepage.js')        
